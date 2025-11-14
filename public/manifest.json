@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas Calendar",
+  "version": "0.0.1",
+  "description": "An extension which integrates with Canvas the online learning service. The extension exports all the weeks assignments into a calendar.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "*://*/*"
+  ]
+}
